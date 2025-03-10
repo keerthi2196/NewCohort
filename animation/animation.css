@@ -1,0 +1,36 @@
+.section{
+    overflow: hidden;
+}
+.container{
+    margin-top: 90px;
+    display: flex;
+    gap: 20px;
+    animation-name: dribble;
+    animation-duration: 20s;
+   
+  
+}
+
+@keyframes dribble {
+    0% {
+    }
+    50% {
+    }
+    100% {
+        transform: translate(-50%);
+    }
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    width: 270px;
+    height: 300px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    flex-shrink: 0;
+   
+}
+

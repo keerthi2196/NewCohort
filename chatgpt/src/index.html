@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-neutral-950 w-[280px] h-screen text-white">
+ <div class="flex justify-between items-center p-4">
+    <img src="images/sidebar.svg" alt="">
+    <div class="flex items-center gap-3">
+        <img src="images/search.svg" alt="">
+        <img src="images/edit.svg" alt="">
+    </div>
+ </div>
+ <div class="flex items-center px-4 py-2 gap-3 hover:bg-neutral-800 w-56 rounded-xl">
+        <img class="h-5 w-5" src="images/chatgpticon.svg" alt="">
+    <h3 class="text-sm">ChatGpt</h3> 
+ </div>
+ <div class="flex items-center px-4 py-2 gap-3 hover:bg-neutral-800 w-56 rounded-xl">
+    <img class="h-5 w-5" src="images/moregpts.svg" alt="">
+    <h3 class="text-sm">Explore GPT's</h3>
+ </div>
+
+ <div class="my-4 mx-5 ">
+    <h3 class="text-sm font-semibold py-5">Today</h3>
+    <p class="text-neutral-300">centering text in h1</p>
+ </div>
+ <div class="my-4 mx-5 py-6">
+    <h3 class="text-sm font-semibold py-2">Previous 30dys</h3>
+    <div class="py-2 text-neutral-300"><p>Baby videos generate</p></div>
+    <div class="py-2 text-neutral-300"><p>how to add emojis in vscode</p></div>
+    <div class="py-2 text-neutral-300"><p>generate some images</p></div>
+    <div class="py-2 text-neutral-300"><p>learn MERN and Gen AI</p></div>
+ </div>
+    </div>
+    <div class="bg-neutral-800 w-[calc(100%-280px)] h-screen absolute right-0 bottom-0">
+   <div class="flex items-center m-4">
+    <h2 class="text-xl text-neutral-400 font-semibold">ChatGpt</h2>
+    <img class="h-5 w-5" src="images/down-arrow.svg" alt="">
+   </div>
+   <div class="absolute bottom-1/5 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+    <h1 class="text-center text-3xl text-white font-semibold">What can i help with?</h1>
+    <div class="w-full max-w-2xl p-4 bg-neutral-800 rounded-lg shadow-lg flex items-center border-none ">
+        <!-- Plus Icon -->
+        <svg class="w-6 h-6 text-gray-500 ml-3 cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="gray">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+        </svg>
+        
+        <!-- Input Field -->
+        <input type="text" class="w-full h-16  rounded-xl p-3 focus:outline-none text-gray-400 text-left" placeholder="Ask anything...">
+        
+        <!-- Globe Icon -->
+        <svg class="w-6 h-6 text-gray-500 mx-3 cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="gray">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2a10 10 0 100 20 10 10 0 000-20zM2 12h20M12 2c2.5 3 4 7 4 10s-1.5 7-4 10m0-20C9.5 5 8 9 8 12s1.5 7 4 10" />
+        </svg>
+        
+        <!-- Bulb Icon -->
+        <svg class="w-6 h-6 text-gray-500 mr-3 cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="gray">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2a6 6 0 00-6 6c0 2.5 1.5 4.5 3 5.5v3a1 1 0 001 1h4a1 1 0 001-1v-3c1.5-1 3-3 3-5.5a6 6 0 00-6-6zM9 21h6" />
+        </svg>
+    </div>
+    <!-- <input type="text" class="w-full h-16 bg-neutral-700 rounded-xl mt-4 p-7 focus:outline-none" placeholder="Ask anything"> -->
+   </div>
+ 
+    </div>
+</body>
+</html>
