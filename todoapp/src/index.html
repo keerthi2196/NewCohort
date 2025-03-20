@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <script src="../node_modules/sortablejs/Sortable.min.js"></script>
+</head>
+
+<body>
+  <div class="bg-blue-700 text-white text-center font-bold">
+   <h4 class="py-2 font-medium">please check your tasks and complete your tasks on time!</h4>
+  </div>
+  <div class="w-[360px] mx-auto mt-11">
+    <h3 class="font-bold ">Manage your tasks <span class="text-neutral-500">@Keerthi</span></h3>
+    <p class="text-sm mb-4">Add yours tasks and start organizing them quickly</p>
+   <div class="hidden" id="task-container">
+    <div class="flex">
+      <input type="text" name="tasks" id="task-name" placeholder="ex: learn javascript"
+        class="border-2 focus:outline-none py-2 px-1 border-neutral-600 w-[325px] rounded-lg mr-1">
+      <input type="datetime-local" name="" id="task-date"
+        class="border-2 focus:outline-none py-2 px-1 border-neutral-600 w-[34px] rounded-lg">
+    </div>
+    <button type="button" class="bg-neutral-900 border-2 rounded-lg text-white text-sm py-2 px-2" id="addTaskbutton">Add task</button>
+   </div>
+  </div>
+ <div id="addTask-container">
+  <!-- <div class="w-[360px] mx-auto border-1 mt-5 px-4 py-3 border-neutral-200 rounded-lg" id="add-tasks">
+    <p class="font-semibold">Learn tailwind css</p>
+    <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+   <div class="flex justify-between mt-3">
+    <button class="text-sm hover:text-green-300 flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+      <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+      <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
+    </svg>Mark as done</button>
+    <button class="text-sm hover:text-red-600 flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+      <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5"/>
+    </svg>Delete</button>
+   </div>
+   </div> -->
+ </div>
+   <button class="rounded-full bg-black text-7xl absolute right-7 bottom-7 text-white" id="initButton">+</button>
+
+   <script src="app.js"></script>
+  
+</body>
+
+</html>
